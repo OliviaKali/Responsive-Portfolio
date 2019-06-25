@@ -221,6 +221,9 @@ body {
     .main-section {
         width: 60%;
       }
+      #main-container {
+        padding-top: 20px;
+      }
         #masthead {
           position: static;
           width: 100%;
@@ -240,6 +243,9 @@ body {
   @media screen and (max-width: 768px) {
   .main-section {
     width: 100%;
+  }
+  #main-container {
+    padding-top: 20px;
   }
     #masthead {
       position: static;
@@ -261,6 +267,9 @@ body {
     .main-section {
       width: 100%;
     }
+    #main-container {
+      padding-top: 20px;
+    }
       #masthead {
         position: static;
         width: 100%;
@@ -268,6 +277,8 @@ body {
     nav{
         text-align: center;
         width: 100%;
+        display: flex;
+        padding-bottom: 10px;
     }
     a {
         width: 33.3%;
